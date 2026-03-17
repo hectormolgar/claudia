@@ -143,8 +143,14 @@ body {
     background-position: center;
     position: relative;
     overflow: hidden;
-    cursor: pointer;
     transition: transform 0.3s ease;
+    display: block; /* Para que el enlace funcione bien como bloque */
+}
+
+/* Específicamente para la tarjeta con enlace */
+.card-link {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .card:hover {
