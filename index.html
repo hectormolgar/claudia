@@ -3,132 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ClaudIA - Universo</title>
+    <title>ClaudIA - El Universo</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header class="top-nav">
-        <button class="icon-btn"><i class="fa-solid fa-bars"></i></button>
-        <div class="logo">
-            CLAU<br><span class="highlight">IA</span>
+    <header class="main-header">
+        <div class="header-left">
+            <div class="menu-container">
+                <div class="hamburger-icon">
+                    <svg viewBox="0 0 100 80" width="24" height="24" fill="#555">
+                        <rect width="100" height="15"></rect>
+                        <rect y="30" width="100" height="15"></rect>
+                        <rect y="60" width="100" height="15"></rect>
+                    </svg>
+                </div>
+                <nav class="dropdown-menu">
+                    <ul>
+                        <li><a href="#podcast">Podcast Diegético</a></li>
+                        <li><a href="#moodreel">Moodreel</a></li>
+                        <li><a href="#vr3d">Vr/3D</a></li>
+                        <li><a href="#redes">Redes Sociales</a></li>
+                        <li><a href="#cortometraje">Cortometraje</a></li>
+                        <li><a href="#trailer">Trailer</a></li>
+                        <li class="menu-highlight"><a href="#entra">Entra al universo de ClaudIA</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <button class="icon-btn highlight"><i class="fa-solid fa-globe"></i></button>
+
+        <div class="header-center">
+            <h1 class="logo">CLAU<span>DIA</span></h1>
+        </div>
+
+        <div class="header-right">
+            <div class="user-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#6ca6cd" stroke-width="2">
+                    <circle cx="12" cy="7" r="4"></circle>
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                </svg>
+            </div>
+        </div>
     </header>
 
     <main>
         <section class="hero">
+            <div class="hero-overlay"></div>
             <div class="hero-content">
-                <p class="subtitle">PROYECTO TRANSDISCIPLINAR</p>
-                <h1>Claud<span class="highlight">IA</span></h1>
-                <p>Donde la tecnología se une a la calidez humana</p>
+                <p class="subtitle-small">PROYECTO TRANSDISCIPLINAR</p>
+                <h2 class="hero-title">Claud<span>IA</span></h2>
+                <p class="hero-subtitle">Donde la tecnología se une a la calidez humana.</p>
             </div>
         </section>
 
-        <section class="nueva-realidad container">
-            <div class="split-layout">
-                <div class="image-box">
-                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80" alt="Máquina de café y brazo robótico">
+        <section class="feature-section">
+            <div class="feature-container">
+                <div class="feature-image">
+                    <div class="placeholder-img" style="background-color: #d3d3d3; height: 100%;"></div>
                 </div>
-                <div class="text-box">
+                <div class="feature-text">
                     <h2>UNA NUEVA REALIDAD</h2>
                     <p>"Tú buscas sentir para encontrar tu lugar en un mundo donde todos parecen saber cómo hacerlo."</p>
                 </div>
             </div>
         </section>
 
-        <section class="productos container">
+        <section class="products-section">
             <div class="section-header">
-                <h3>Productos del universo</h3>
+                <div class="vertical-line"></div>
+                <h2>Productos del universo</h2>
             </div>
-            
-            <div class="grid-cards">
-                <div class="card" style="background-image: url('https://picsum.photos/id/119/400/250');">
-                    <div class="card-content">
-                        <h4>Podcast Diegético</h4>
-                        <p>Descubre el podcast de nuestra ficción: "Nuevo Mundo"</p>
-                    </div>
-                </div>
 
-                <a href="https://www.ufv.es" class="card card-link" style="background-image: url('https://picsum.photos/id/1060/400/250');">
-                    <div class="card-content">
-                        <h4>Moodreel</h4>
+            <div class="products-grid">
+                <a href="https://www.ufv.es" target="_blank" class="product-card">
+                    <div class="card-bg" style="background-color: #333;"></div> <div class="card-content">
+                        <h3>Podcast Diegético</h3>
+                        <p>Descubre el podcast de nuestro locutor, "Nuevo Mundo"</p>
+                    </div>
+                </a>
+
+                <a href="https://www.ufv.es" target="_blank" class="product-card">
+                    <div class="card-bg" style="background-color: #444;"></div> <div class="card-content">
+                        <h3>Moodreel</h3>
                         <p>Atmósfera visual de nuestro proyecto</p>
                     </div>
                 </a>
 
-                <div class="card" style="background-image: url('https://picsum.photos/id/342/400/250');">
-                    <div class="card-content">
-                        <h4>VR/3D</h4>
+                <a href="https://www.ufv.es" target="_blank" class="product-card">
+                    <div class="card-bg" style="background-color: #555;"></div> <div class="card-content">
+                        <h3>VR/3D</h3>
                         <p>Sumérgete en la cafetería de ClaudIA</p>
                     </div>
-                </div>
-                <div class="card" style="background-image: url('https://picsum.photos/id/43/400/250');">
-                    <div class="card-content">
-                        <h4>Redes Sociales</h4>
-                        <p>Nuestra campaña para conectar de distintas plataformas</p>
+                </a>
+
+                <a href="https://www.ufv.es" target="_blank" class="product-card">
+                    <div class="card-bg" style="background-color: #222;"></div> <div class="card-content">
+                        <h3>Redes Sociales</h3>
+                        <p>Nuestra campaña para conectar la narrativa a través de distintas plataformas</p>
                     </div>
-                </div>
-                <div class="card" style="background-image: url('https://picsum.photos/id/338/400/250');">
-                    <div class="card-content">
-                        <h4>Cortometraje</h4>
+                </a>
+
+                <a href="https://www.ufv.es" target="_blank" class="product-card">
+                    <div class="card-bg" style="background-color: #666;"></div> <div class="card-content">
+                        <h3>Cortometraje</h3>
                         <p>La pieza final de nuestro universo</p>
                     </div>
-                </div>
-                <div class="card" style="background-image: url('https://picsum.photos/id/1084/400/250');">
-                    <div class="card-content">
-                        <h4>Tráiler</h4>
-                        <p>Un vistazo a nuestra historia</p>
+                </a>
+
+                <a href="https://www.ufv.es" target="_blank" class="product-card">
+                    <div class="card-bg" style="background-color: #777;"></div> <div class="card-content">
+                        <h3>Trailer</h3>
+                        <p>El avance de nuestra historia</p>
                     </div>
-                </div>
+                </a>
             </div>
         </section>
 
-        <section class="cta-section container">
-            <div class="cta-box">
+        <section class="cta-section">
+            <div class="cta-box" id="entra">
                 <h2>Entra al universo</h2>
                 <p>Experimenta la narrativa completa del universo de ClaudIA</p>
-                <a href="#" class="btn">EMPEZAR</a>
+                <a href="#" class="btn-primary">EMPEZAR</a>
             </div>
         </section>
     </main>
 
-    <nav class="bottom-nav">
-        <a href="#" class="nav-item active">
-            <i class="fa-solid fa-house"></i>
-            <span>Inicio</span>
-        </a>
-        <a href="#" class="nav-item">
-            <i class="fa-solid fa-border-all"></i>
-            <span>Galería</span>
-        </a>
-        <a href="#" class="nav-item">
-            <i class="fa-solid fa-circle-info"></i>
-            <span>Nosotros</span>
-        </a>
-        <a href="#" class="nav-item">
-            <i class="fa-regular fa-envelope"></i>
-            <span>Contacto</span>
-        </a>
-    </nav>
-
-    <footer>
-        <div class="footer-logo">
-            CLAU<span class="highlight">IA</span>
+    <footer class="main-footer">
+        <div class="footer-icons">
+            <div class="icon-item"><span>🏠</span><p>Inicio</p></div>
+            <div class="icon-item"><span>🔲</span><p>Galería</p></div>
+            <div class="icon-item"><span>ℹ️</span><p>Nosotros</p></div>
+            <div class="icon-item"><span>✉️</span><p>Contacto</p></div>
         </div>
-        <div class="social-icons">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#"><i class="fa-brands fa-spotify"></i></a>
+        
+        <div class="footer-bottom">
+            <h2 class="logo-footer">CLAU<span>DIA</span></h2>
+            <div class="social-links">
+                <a href="#">X</a>
+                <a href="#">▶</a>
+                <a href="#">P</a>
+            </div>
+            <ul class="footer-links">
+                <li><a href="#">Project Info</a></li>
+                <li><a href="#">The Universe</a></li>
+                <li><a href="#">Credits</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+            <p class="copyright">© 2024 ClaudIA Transmedia Universe. All rights reserved.</p>
         </div>
-        <div class="footer-links">
-            <a href="#">Project Info</a>
-            <a href="#">The Universe</a>
-            <a href="#">Credits</a>
-            <a href="#">Privacy</a>
-        </div>
-        <p class="copyright">© 2024 ClaudIA. Proyecto de la Universidad. All rights reserved.</p>
     </footer>
 
 </body>
